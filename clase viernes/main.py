@@ -10,9 +10,9 @@ from tiempo import horas_a_minutos
 from auth import verificar_acceso
 
 while True:
-    opcion=input("Que ejercicio quieres hacer? o escribe 'terminado' para salir: ").strip()
+    opcion=input("Que ejercicio quieres hacer? o escribe 'fin' para salir: ").strip()
 
-    if opcion.lower()=="terminado":
+    if opcion.lower()=="fin":
         print("finalizado")
         break
 
